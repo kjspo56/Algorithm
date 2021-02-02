@@ -1,4 +1,5 @@
 //백준 1000번
+//Scanner를 이용하여 출력하기
 package study;
 
 import java.util.Scanner;
