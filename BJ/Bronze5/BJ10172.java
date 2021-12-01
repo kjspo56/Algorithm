@@ -1,5 +1,5 @@
 //10172번
-public class study01 {
+public class BJ10172 {
 	public static void main(String[] args) {
 		
 		System.out.println("|\\_/|"); // \방지하기 위해 1개 더 사용

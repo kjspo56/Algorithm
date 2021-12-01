@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //백준 8393번
-public class BackJoon8393 {
+public class BJ8393 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

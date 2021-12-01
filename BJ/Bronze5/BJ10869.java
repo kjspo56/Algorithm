@@ -1,12 +1,11 @@
 //백준 10869번
-package study;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.util.Scanner;
 
-public class study01 {
+public class BJ10869 {
 	public static void main(String[] args) throws IOException {
 		
 		//Scanner 를 이용한 방법

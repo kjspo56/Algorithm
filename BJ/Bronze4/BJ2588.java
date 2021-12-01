@@ -1,9 +1,10 @@
 //백준 2588번
-package study;
-
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class study03 {
+public class BJ2588 {
 	public static void main(String[] args) throws IOException {
 		Scanner sc = new Scanner(System.in);
 		
@@ -24,19 +25,14 @@ public class study03 {
 		int b = Integer.parseInt(br.readLine());
 		
 		br.close();
-		
-		StringBuilder sb = new StringBuilder();
-		
-		sb.append(a * (b%10));
-		sb.append('\n');
-		
-		sb.append(a * (b%100)/10);
-		sb.append('\n');
-		
-		sb.append(a * (b/100));
-		sb.append('\n');
-		
-		sb.append(a * b);
+
+		String sb = String.valueOf(a * (b % 10)) +
+				'\n' +
+				a * (b % 100) / 10 +
+				'\n' +
+				a * (b / 100) +
+				'\n' +
+				a * b;
 		
 		System.out.print(sb);
 		

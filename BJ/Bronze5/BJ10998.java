@@ -1,9 +1,8 @@
 //백준 10998번
-package study;
 
 import java.util.Scanner;
 
-public class study01 {
+public class BJ10998 {
 	public static void main (String[] args){
 		
 		Scanner sc = new Scanner(System.in);

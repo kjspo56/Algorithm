@@ -1,9 +1,7 @@
 //10430번
-package study;
-
 import java.util.Scanner;
 
-public class study02 {
+public class BJ10430 {
 	public static void main(String[] args) {
 
 		Scanner in = new Scanner(System.in);
