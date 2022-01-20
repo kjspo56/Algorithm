@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class BJ16431 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
         int []bessie = new int [2];
         int []daisy = new int [2];
         int [] arr = new int [2];
@@ -27,7 +28,5 @@ public class BJ16431 {
             System.out.println("daisy");
         }else { System.out.println("tie");
         };
-
-
     }
 }
