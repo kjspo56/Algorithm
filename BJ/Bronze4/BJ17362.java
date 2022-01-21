@@ -7,7 +7,7 @@ public class BJ17362 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         int A = Integer.parseInt(br.readLine());
-        int answer = A % 8;
+        int answer = A % 8; //나누기 8에 따라 나오는 값들이 달라짐
 
         System.out.println(answer == 0 ? 2 : answer == 6 ? 4 : answer == 7 ? 3 : answer);
 
