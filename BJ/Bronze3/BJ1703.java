@@ -16,7 +16,7 @@ public class BJ1703 {
             int result = 1;
             for(int i = 0; i<a; i++){
                 int n = Integer.parseInt(st.nextToken());   //splitting factor 수
-                int g =Integer.parseInt(st.nextToken());    //가지치기 한 수
+                int g = Integer.parseInt(st.nextToken());    //가지치기 한 수
                 //result = 생장점의 개수
 
                 //생장점 개수 * 늘어난 가지수 - g = 나뭇잎의 개수(생장점의 개수)
