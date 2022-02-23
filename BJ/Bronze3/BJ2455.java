@@ -11,8 +11,8 @@ public class BJ2455 {
         int now = 0;
         for(int i = 0; i<4; i++){
             StringTokenizer st = new StringTokenizer(br.readLine(), " ");
-            int out = Integer.valueOf(st.nextToken());
-            int in = Integer.valueOf(st.nextToken());
+            int out = Integer.parseInt(st.nextToken());
+            int in = Integer.parseInt(st.nextToken());
 
             now = now - out + in;
             max = Math.max(max, now);
