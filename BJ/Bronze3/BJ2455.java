@@ -14,6 +14,7 @@ public class BJ2455 {
             int out = Integer.parseInt(st.nextToken());
             int in = Integer.parseInt(st.nextToken());
 
+
             now = now - out + in;
             max = Math.max(max, now);
         }
