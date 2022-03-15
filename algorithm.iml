@@ -3,11 +3,11 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/BJ/Bronze1" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BJ/Bronze2" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BJ/Bronze3" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BJ/Bronze4" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/BJ/Bronze5" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Solution/BJ/Bronze1" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Solution/BJ/Bronze2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Solution/BJ/Bronze3" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Solution/BJ/Bronze4" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Solution/BJ/Bronze5" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="11 (2)" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
