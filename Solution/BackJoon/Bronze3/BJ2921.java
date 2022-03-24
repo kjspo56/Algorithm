@@ -6,18 +6,17 @@ import java.io.*;
 public class BJ2921 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         int N = Integer.parseInt(br.readLine());
-        int ans = 0;
-        for(int i = 0; i<=N; i++){
-            for(int j = i; j <=N; j++){
-                ans = ans + i + j;
+        int sum = 0;
+
+        //0일떄는 해당사항이 없으므로, 1에서 N까지 시작
+        for(int i = 1; i <=N; i++){
+            //값의 2배까지 증가하는 값
+            for(int j = i; j<= i *2; j++){
+                sum += j;
             }
         }
-        bw.write(ans + "\n");
-        bw.flush();
-        br.close();
-        bw.close();
+        System.out.println(sum);
     }
 }
