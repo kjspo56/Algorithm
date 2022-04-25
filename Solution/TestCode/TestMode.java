@@ -9,6 +9,8 @@ public class TestMode {
         map.put(2, "뉴욕");
         map.put(3, "로마");
 
+        //test중
+
         System.out.println(map);
     }
 }
